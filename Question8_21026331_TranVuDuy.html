@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question 8
-        
+
     </title>
 </head>
 <body>
@@ -12,11 +12,10 @@
     <script>
        
         let output = "";
-        let sum1To10 = 0;
-        for (let i = 1; i <= 10; i++) {
-            sum1To10 += i;
+        function celsiusToFahrenheit(celsius) {
+            return (celsius * 9/5) + 32;
         }
-        output += `5. Sum of numbers from 1 to 10: ${sum1To10}<br>`;
+        output += `8. 25°C in Fahrenheit: ${celsiusToFahrenheit(25)}<br>`;
         document.getElementById("root").innerHTML = output;
         
     </script>
