@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question 1</title>
+    <title>Question 7</title>
 </head>
 <body>
     <div id="root"></div>
     <script>
        
         let output = "";
-        let sum1To10 = 0;
-        for (let i = 1; i <= 10; i++) {
-            sum1To10 += i;
+        let sumEven = 0;
+        for (let i = 12; i < 30; i += 2) {
+            sumEven += i;
         }
-        output += `5. Sum of numbers from 1 to 10: ${sum1To10}<br>`;
+        output += `7. Sum of even numbers greater than 10 and less than 30: ${sumEven}<br>`;
         document.getElementById("root").innerHTML = output;
         
     </script>
